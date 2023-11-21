@@ -1,19 +1,21 @@
 .josef input[type=text] {
-    padding: 9px 20px;
+    padding: 10px 110px;
     border-radius: 100px;
     background-color: #fff;
     font-weight: 300;
-    margin-top: 60px;
-    width: 30%;
+    margin-top: 15px;
+    width: 50%;
 }
 .showcase {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    text-align: center
+    text-align: center;
+    margin-top: 200px;
 }
 #navbar {
+    position: static;
     background-color: black;
     color: white;
     display: flex;
