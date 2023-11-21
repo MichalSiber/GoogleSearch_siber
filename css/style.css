@@ -1,0 +1,62 @@
+.josef input[type=text] {
+    padding: 9px 20px;
+    border-radius: 100px;
+    background-color: #fff;
+    font-weight: 300;
+    margin-top: 60px;
+    width: 30%;
+}
+.showcase {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+#navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-wrap: wrap;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+    width: 100%;
+
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+#navbar ul {
+
+    display: flex;
+
+    list-style: none;
+
+    align-items: center;
+
+}
+
+ 
+
+#navbar ul li a {
+
+    padding: 10px;
+
+    margin: 0 0.25rem;
+    font-size: 20px;
+
+}
+
+#navbar ul li a:hover {
+
+    background-color: black;
+
+    border-radius: 3px;
+
+    color: #7f2e37;
+
+}
